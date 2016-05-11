@@ -1,0 +1,41 @@
+<div class="container-fluid no-padding">
+      <div id="carousel1 carousel_img" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active" style="background: #F00; height: 500px; background:url({{ asset('images/mongolie.jpg') }}); background-size: 100%; background-position: top;">
+          	<br>
+          	<br>
+          	<br>
+            <div class="carousel-caption">
+            	<img src="{{ asset('images/logo/logo-jaune.png')|imagine_filter('my_thumb') }}">
+              <h3 style="font-style:italic; color:#000"> "Le bonheur n'est réel que s'il est partagé" </h3>
+              <h1 style="font-style:italic;"> "Happiness only real when shared" </h1>
+            </div>
+          </div>
+          <div class="item" style="background: #F00; height: 500px; background:url({{ asset('images/back.jpg') }}); background-size: 100%; background-position: right center;">
+            <div class="carousel-caption">
+              <div class="col-lg-12 text-center v-center" style="font-size: 20pt;">
+                <a href="#"><span class="avatar"><i class="fa fa-google-plus margin-box"></i></span></a>
+                <a href="#"><span class="avatar"><i class="fa fa-facebook margin-box"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="item" style="background: #F00; height: 500px; background:url({{ asset('images/mon1.jpg') }}); background-size: 100%; background-position: center;">
+            <div class="carousel-caption">
+              <h1 style="color: #fff"> Nos péripéties </h1>
+              <p>BLA BLA BLA</p>
+            </div>
+          </div>
+        </div>
+        <ul class="nav nav-pills nav-justified">
+          <li data-target="#carousel1" data-slide-to="0" class="active">
+            <a href="#"><h4> Our Project </h4></a>
+          </li>
+          <li data-target="#carousel1" data-slide-to="1">
+            <a href="#"><h4>Géolocation</h4></a>
+          </li>
+          <li data-target="#carousel1" data-slide-to="2">
+            <a href="#"><h4> Last News </h4></a>
+          </li>
+        </ul>
+      </div>
+    </div>
